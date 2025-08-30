@@ -23,7 +23,7 @@ The orderConfirmation.spec.ts file contains a single test that is executed in 3 
 1. **Clone the repository**
 
    ```sh
-   git clone <your-repo-url>
+   git clone https://github.com/cristhian891/direct-ferries-e2e
    cd DF_Test
    ```
 
@@ -109,10 +109,12 @@ DF_Test/
 
 ---
 
-## Possible Enhancements
+## Possible Enhancements ( PART 2)
+
+These are the main improvemnents that I can think of to make on this framework. It is always important to adjust any of these improvements with any context and requirements the project needs alog the way.
 
 - **Test Data Management:** Use fixtures or external files for test data.
-  For example all valid usernames and passwords can be store in external files.
+  For example all valid usernames and passwords can be store in external files. Product categorization or test products. etc.
 - **Environment Support:** Add `.env` support for credentials and URLs.
 - **Parallel Execution:** Optimize test parallelism for CI/CD.
 - **Custom Reporters:** Integrate additional reporters (e.g., Allure). Reports can be customize and configure so they can be integrated in the CI/CD piple. html reporter would be
@@ -121,8 +123,8 @@ DF_Test/
 - **Accessibility Checks:** Integrate accessibility assertions for specific components.
 - **Visual Regression:** Use Playwright’s screenshot comparison for UI changes. This is a way of doing visual testing for heavy UI pages.
 - **Error Handling:** Improve error messages and add retries for flaky steps. It is important to check API reponse time to validate waiting times after actions like clicking buttons or waiting for elements to displayed.
-- **Reusable Components:** Refactor common actions into utility functions. Login or common actions can be refactor in an external file to reuse functions and expand the framework. For exmaple adding a specif product to the cart with a series of product of specifications.
-- **Video recordings:** Playwright.conf.ts can be adjusted to add screen video recordings for each test execution so whenever there is failing test, the video can be played back to detect the issue.
+- **Reusable Components:** Refactor common actions into utility functions. Login or common actions can be refactor in an external file to reuse functions and expand the framework. For exmaple adding a specific product to the cart with a series of product specifications.
+- **Video recordings:** Playwright.conf.ts can be adjusted to add screen video recordings for each test execution so whenever there is failing test, the video can be played back to detect the issue. Also screenshots after failure can be added as well.
 - **Mobile Testing:** Enable and configure mobile browser projects.
 - **Integration with lighthouse:** Lighthouse can be used to test UI performance metrics like LCP, FCP or speedIndex. Improving this will improve SEO overall by positioning a website higher in the google rankings.
 
@@ -130,4 +132,4 @@ DF_Test/
 
 ## Support
 
-For issues or questions contact @Christian Preciado QA Lead Engineer, please open an issue in this repository.
+For issues or questions contact @Christian Preciado QA Lead Engineer, please feel free to open any issues in this repository.
