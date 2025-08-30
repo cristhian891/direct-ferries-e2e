@@ -111,7 +111,7 @@ DF_Test/
 
 ## Possible Enhancements ( PART 2)
 
-These are the main improvemnents that I can think of to make on this framework. It is always important to adjust any of these improvements with any context and requirements the project needs alog the way.
+These are the main improvements that I can think of to make on this framework. It is always important to adjust any of these improvements with any context and requirements the project needs along the way.
 
 - **Test Data Management:** Use fixtures or external files for test data.
   For example all valid usernames and passwords can be store in external files. Product categorization or test products. etc.
